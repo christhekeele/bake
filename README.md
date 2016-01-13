@@ -94,13 +94,13 @@ For example,
 
 Raspberry Pi 2
 ```elixir
-# config/rpi2/config.exs
+# config/target/rpi2.exs
 config :nerves_io_led, names: [ red: "led0", green: "led1" ]
 ```
 
 BeagleBone Black
 ```elixir
-# config/bbb/config.exs
+# config/target/bbb.exs
 config :blinky, led_list: [ :led0, :led1, :led2, :led3 ]
 
 config :nerves_io_led, names: [
